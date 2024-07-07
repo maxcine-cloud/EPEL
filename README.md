@@ -1,5 +1,5 @@
 # epSRel
-In this study, we introduced an effect predictor called epSRel (effect predictor of synonymous mutation by sequence representation based on ensemble learning), a ensemble learning method based on sequence representation for driver sSNVs. epSRel combines the power of five tree-based models and incorporates optimal features. DNA shape and deep features based chemical molecule are firstly applied to represent the effect of synonymous mutations and show positive contributions. Compared with the exist state-of-the-art methods, epSRel performs better on the independent test set. The details are summarized as follows. 
+In this study, we introduced an effect predictor called EPEL, a ensemble learning method based on sequence representation for driver sSNVs. EPEL combines the power of five tree-based models and incorporates optimal features. DNA shape and deep features based chemical molecule are firstly applied to represent the effect of synonymous mutations and show positive contributions. Compared with the exist state-of-the-art methods, epSRel performs better on the independent test set. The details are summarized as follows. 
 
 * data: in this paper, we used COSMIC as the training and independent test sets, respectively.
 
