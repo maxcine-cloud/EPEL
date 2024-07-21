@@ -30,7 +30,7 @@ We recommend you to build a python virtual environment with [Anaconda](https://d
 
 ## Usage
 
-Please see the template data at `/data`, it contains various characteristic and synonymous mutations in the form of variant call format (VCF). If you are trying to using EPEL with your own data, please process your data into the same format as it. Before using the model, you can read the help documentation.
+Please see the template data at `/data`, it contains various characteristic and synonymous mutations in the form of variant call format. If you are trying to using EPEL with your own data, please process your data into the same format as it. Before using the model, you can read the help documentation.
 
 ```
 python src/main.py -h
