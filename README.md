@@ -5,7 +5,7 @@ In this study, we first investigate the contribution of sequence-based features,
 
 * out: it contains output result files, including prediction scores of test set.
 
-* plot: it contains code and data for various chart referred to in the paper.
+* plot: it contains code and data for various charts referred to in the paper.
 
 * src: it contains the code used in the project, including the processing of training and test data and modeling.
 
