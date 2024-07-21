@@ -1,15 +1,15 @@
 # EPEL
-In this study, we introduced an effect predictor called EPEL, a ensemble learning method based on sequence representation for driver sSNVs. EPEL combines the power of five tree-based models and incorporates optimal features. DNA shape and deep features based chemical molecule are firstly applied to represent the effect of synonymous mutations and show positive contributions. Compared with the exist state-of-the-art methods, epSRel performs better on the independent test set. The details are summarized as follows. 
+In this study, we first investigate the contribution of sequence-based features, including DNA shape, physicochemical properties and one-hot encodings based on encoded single nucleotide, and deep learningderived features from pre-trained chemical molecule language models based on BERT. Secondly, we propose EPEL, an effect predictor of synonymous mutations employing ensemble learning. Notably, the application of DNA shape features and deep learning-derived features based on chemical molecule represents a pioneer effect in assessing the impact of synonymous mutations. Compared to the exist state-of-the-art methods, EPEL demonstrates superior performance on independent test set. The details are summarized as follows. 
 
 * data: in this paper, we used COSMIC as the training and independent test sets, respectively.
 
-* out: it contains intermediate output result files, including scoring of test and training data and comparison of dimensionality reduction methods.
+* out: it contains output result files, including scoring of test and training data.
 
-* plot: it contains the various chart files referred to in the paper.
+* plot: it contains code and data for various chart referred to in the paper.
 
-* src: it contains the code used in the project, including the processes of training and testing the model.
+* src: it contains the code used in the project, including the processing of training and test data and modeling.
 
-* model: models used and saved during the project. It contains data preprocessing, intermediate model and final ensemble process model. These are in three different folders:
+* model: models used and saved during the project. It contains data preprocessing, intermediate model and final ensemble leaning models. These are in three different folders:
 
   * data_processing_model
 
@@ -30,7 +30,7 @@ We recommend you to build a python virtual environment with [Anaconda](https://d
 
 ## Usage
 
-Please see the template data at `/data` ,it contains various characteristic and synonymous mutations in the form of variant call format. If you are trying to using epSRel with your own data, please process your data into the same format as it. Before using our model, you can read the help documentation.
+Please see the template data at `/data`, it contains various characteristic and synonymous mutations in the form of variant call format (VCF). If you are trying to using EPEL with your own data, please process your data into the same format as it. Before using the model, you can read the help documentation.
 
 ```
 python src/main.py -h
@@ -67,7 +67,7 @@ python src/main.py
 
 ## Examples
 
-If you want to use these data to run our model, you can follow the example below to get started faster.
+If you want to use these data to run the model, you can follow the example below to get started faster.
 
 1. If you want to get the score in COSMIC via epSRel, you can ideally run like this:
 
