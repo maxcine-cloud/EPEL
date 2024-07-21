@@ -3,7 +3,7 @@ In this study, we first investigate the contribution of sequence-based features,
 
 * data: in this paper, we used COSMIC as the training and independent test sets, respectively.
 
-* out: it contains output result files, including scoring of test and training data.
+* out: it contains output result files, including prediction scores of test set.
 
 * plot: it contains code and data for various chart referred to in the paper.
 
