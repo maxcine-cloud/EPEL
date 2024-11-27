@@ -1,5 +1,5 @@
 # EPEL
-In this study, we first investigate the contribution of sequence-based features, including DNA shape, physicochemical properties and one-hot encodings based on encoded single nucleotide, and deep learningderived features from pre-trained chemical molecule language models based on BERT. Secondly, we propose EPEL, an effect predictor of synonymous mutations employing ensemble learning. Notably, the application of DNA shape features and deep learning-derived features based on chemical molecule represents a pioneer effect in assessing the impact of synonymous mutations. Compared to the exist state-of-the-art methods, EPEL demonstrates superior performance on independent test set. The details are summarized as follows. 
+In this study, we initially investigate the impact of sequence-based features, including DNA shape, physicochemical properties and one-hot encoding of nucleotides, and deep learning-derived features from pre-trained chemical molecule language models based on BERT. Subsequently, we propose EPEL, an effect predictor for synonymous mutations employing ensemble learning. EPEL combines five tree-based models and optimizes feature selection to enhance predictive accuracy. Notably, the incorporation of DNA shape features and deep learning-derived features from chemical molecule represents a pioneering effect in assessing the impact of synonymous mutations in cancer. Compared to existing state-of-the-art methods, EPEL demonstrates superior performance on independent test datasets. The details are summarized as follows. 
 
 * data: in this paper, we used COSMIC as the training and independent test sets, respectively.
 
@@ -69,7 +69,7 @@ python src/main.py
 
 If you want to use these data to run the model, you can follow the example below to get started faster.
 
-1. If you want to get the score in COSMIC via epSRel, you can ideally run like this:
+1. If you want to get the score in COSMIC via EPEL, you can ideally run like this:
 
    ```
    python src/main.py
