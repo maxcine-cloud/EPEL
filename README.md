@@ -81,8 +81,9 @@ If you want to use these data to run the model, you can follow the example below
    python src/main.py -dataType train -dbName COSMIC
    ```
 
-## Reference
+## Citing
 
+If you find EPEL useful for your research, please consider citing [this paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012744):
 ```
 @article{bi2025ensemble,
   title={Ensemble learning-based predictor for driver synonymous mutation with sequence representation},
