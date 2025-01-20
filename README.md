@@ -84,6 +84,15 @@ If you want to use these data to run the model, you can follow the example below
 ## Reference
 
 ```
-TO DO
+@article{bi2025ensemble,
+  title={Ensemble learning-based predictor for driver synonymous mutation with sequence representation},
+  author={Bi, Chuanmei and Shi, Yong and Xia, Junfeng and Liang, Zhen and Wu, Zhiqiang and Xu, Kai and Cheng, Na},
+  journal={PLOS Computational Biology},
+  volume={21},
+  number={1},
+  pages={e1012744},
+  year={2025},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
 ```
 
